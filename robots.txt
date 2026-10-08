@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # TODO: replace with your real domain
-Sitemap: https://www.example.com/sitemap.xml
+Sitemap: https://grim33706-eng.github.io/UTOPIA/sitemap.xml
