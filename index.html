@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary SEO -->
+    <title>Utopai Studios – PAI Cinematic Storytelling Engine</title>
+    <meta name="description" content="Utopai Studios makes cinematic entertainment with PAI, a storytelling engine for creators. Explore Originals, PAI, PAI Pro and Enterprise tools.">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#000000">
+    <!-- TODO: replace https://www.example.com/ with your real domain everywhere it appears -->
+    <link rel="canonical" href="https://www.example.com/">
+
+    <!-- Open Graph / social sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Utopai Studios">
+    <meta property="og:title" content="Utopai Studios – PAI Cinematic Storytelling Engine">
+    <meta property="og:description" content="Cinematic entertainment brought to life by PAI. Explore Originals, PAI, PAI Pro and Enterprise.">
+    <meta property="og:url" content="https://www.example.com/">
+    <meta property="og:image" content="https://www.example.com/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Utopai Studios – cinematic storytelling powered by PAI">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Utopai Studios – PAI Cinematic Storytelling Engine">
+    <meta name="twitter:description" content="Cinematic entertainment brought to life by PAI. Explore Originals, PAI, PAI Pro and Enterprise.">
+    <meta name="twitter:image" content="https://www.example.com/images/og-image.jpg">
+
+    <link
+        href="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d/6a17222fee78b2f4d53b1ee3_utopai_symbol_dark.png"
+        rel="icon" type="image/png" sizes="512x512" />
+
+    <!-- Performance: warm up third-party origins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.prod.website-files.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://db.onlinewebfonts.com" crossorigin>
+
+    <!-- Fonts: only the families the CSS actually uses (was 9 families via blocking @import) -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Funnel+Sans:wght@300..800&display=swap">
+    <link rel="stylesheet"
+        href="https://db.onlinewebfonts.com/c/10996c153f004a3d6b3121215adef74e?family=Calendas+Plus+Regular">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.example.com/#organization",
+          "name": "Utopai Studios",
+          "url": "https://www.example.com/",
+          "logo": "https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d/6a0ee5d318ef879a29d4afd1_utopai_logo.svg",
+          "description": "Utopai Studios makes cinematic entertainment with PAI, a cinematic storytelling engine.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "215 Castro Street, 3rd floor",
+            "addressLocality": "Mountain View",
+            "addressRegion": "CA",
+            "postalCode": "94041",
+            "addressCountry": "US"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.example.com/#website",
+          "url": "https://www.example.com/",
+          "name": "Utopai Studios",
+          "inLanguage": "en",
+          "publisher": { "@id": "https://www.example.com/#organization" }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.example.com/#webpage",
+          "url": "https://www.example.com/",
+          "name": "Utopai Studios – PAI Cinematic Storytelling Engine",
+          "isPartOf": { "@id": "https://www.example.com/#website" },
+          "about": { "@id": "https://www.example.com/#organization" },
+          "inLanguage": "en"
+        }
+      ]
+    }
+    </script>
+</head>
+
+<body id="top">
+
+    <a class="visually-hidden-focusable skip-link" href="#main">Skip to main content</a>
+
+    <!-- navbar -->
+    <header>
+    <nav class="utopia-nav" aria-label="Main navigation">
+        <div class="nav-bar">
+            <button type="button" class="menu-btn" aria-expanded="false" aria-controls="site-menu">
+                <span class="me-2" aria-hidden="true">☰</span>
+                <span>Menu</span>
+            </button>
+
+            <a href="./" class="logo" aria-label="Utopai Studios home">UTOPAI</a>
+
+            <a href="#pai" class="try-btn">
+                Try PAI now <span aria-hidden="true">↗</span>
+            </a>
+        </div>
+
+        <div class="nav-menu" id="site-menu" inert>
+            <div class="menu-top">
+                <button type="button" class="close-btn">✕ &nbsp; &nbsp; Close</button>
+
+                <a href="./" class="logo" aria-label="Utopai Studios home">UTOPAI</a>
+
+                <a href="#pai" class="try-btn">
+                    Try PAI now <span aria-hidden="true">↗</span>
+                </a>
+            </div>
+
+            <div class="menu-grid">
+                <a class="menu-card card-1" href="#originals">
+                    <span class="menu-title">Originals</span>
+                    <p>Co-productions, global partners and original IP</p>
+                </a>
+
+                <a class="menu-card card-2" href="#pai">
+                    <span class="menu-title">PAI</span>
+                    <p>The cinematic storytelling engine</p>
+                </a>
+
+                <a class="menu-card card-3" href="#pai">
+                    <span class="menu-title">PAI Pro</span>
+                    <p>A studio inside your coding agent</p>
+                </a>
+
+                <a class="menu-card card-4" href="#enterprise">
+                    <span class="menu-title">Enterprise</span>
+                    <p>Built for enterprise workflows</p>
+                </a>
+            </div>
+
+            <div class="menu-footer">
+                <a href="#">About us</a>
+                <a href="#">News &amp; Blog</a>
+                <a href="#">FAQ</a>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <main id="main">
+
+    <!-- hero banner -->
+    <section class="hero-video" aria-label="Introduction">
+        <video autoplay muted loop playsinline preload="metadata" aria-hidden="true" disablepictureinpicture>
+            <source
+                src="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d%2F6a161694162114c135e87425_WEBSITE_REEL_edit_v4_05202026%20-%20Source_webm.webm"
+                type="video/webm">
+        </video>
+
+        <div class="hero-overlay">
+            <h1>The only thing between you and the <span>screen</span> is a <span>story.</span></h1>
+            <p>Utopai Studios cinematic entertainment brought to life by PAI</p>
+        </div>
+    </section>
+
+    <!-- column slider -->
+    <section class="column-slider" aria-label="Utopai Studios at a glance">
+        <div class="container">
+            <div class="slider-box">
+
+                <!-- LEFT — Fixed Headings -->
+                <div class="col-left">
+                    <div class="column-heading active">
+                        <h2>Originals</h2>
+                    </div>
+                    <div class="column-heading">
+                        <h2>PAI</h2>
+                    </div>
+                    <div class="column-heading">
+                        <h2>PAI Pro</h2>
+                    </div>
+                    <div class="column-heading heading4">
+                        <h2>Enterprise</h2>
+                    </div>
+                </div>
+
+                <!-- CENTER — Scrolling Videos -->
+                <div class="col-center">
+                    <div class="video-stack">
+                        <a href="#originals" class="video-card" aria-label="Explore Originals">
+                            <video autoplay muted loop playsinline preload="none" aria-hidden="true" disablepictureinpicture>
+                                <source
+                                    data-src="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d%2F6a0eef8dcec1f8a3a80f8b1a_utopai_originals_frament_01_mp4.mp4"
+                                    type="video/mp4">
+                            </video>
+                        </a>
+                        <a href="#pai" class="video-card" aria-label="Explore PAI">
+                            <video autoplay muted loop playsinline preload="none" aria-hidden="true" disablepictureinpicture>
+                                <source
+                                    data-src="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d%2F6a0ee3c02a9b7b476fb3dee7_pai_fragment_01_mp4.mp4"
+                                    type="video/mp4">
+                            </video>
+                        </a>
+                        <a href="#pai" class="video-card" aria-label="Explore PAI Pro">
+                            <video autoplay muted loop playsinline preload="none" aria-hidden="true" disablepictureinpicture>
+                                <source
+                                    data-src="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d%2F6a1606665a65d118d0a863e7_pilot_kid_bottom%20-%201080p_mp4.mp4"
+                                    type="video/mp4">
+                            </video>
+                        </a>
+                        <a href="#enterprise" class="video-card" aria-label="Explore Enterprise">
+                            <video autoplay muted loop playsinline preload="none" aria-hidden="true" disablepictureinpicture>
+                                <source
+                                    data-src="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d%2F6a0ee46cdf316c5684a01121_enterprise_char_mp4.mp4"
+                                    type="video/mp4">
+                            </video>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- RIGHT — Fixed Texts -->
+                <div class="col-right">
+                    <div class="column-text active">
+                        <p>Originals for a new age of entertainment</p>
+                    </div>
+                    <div class="column-text">
+                        <p>Master your story with the cinematic storytelling engine</p>
+                    </div>
+                    <div class="column-text">
+                        <p>A studio inside your coding agent</p>
+                    </div>
+                    <div class="column-text">
+                        <p>Enterprise partnerships for the future of story</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- auto horizontal scroll -->
+    <section class="auto-hor-scroll my-5">
+
+        <div class="marquee-track">
+
+            <div class="marquee-content">
+                <p>— Infrastructure made for professionals</p>
+                <p aria-hidden="true">— Infrastructure made for professionals</p>
+                <p aria-hidden="true">— Infrastructure made for professionals</p>
+                <p aria-hidden="true">— Infrastructure made for professionals</p>
+                <p aria-hidden="true">— Infrastructure made for professionals</p>
+            </div>
+
+            <!-- duplicate (decorative, for the seamless loop) -->
+            <div class="marquee-content" aria-hidden="true">
+                <p>— Infrastructure made for professionals</p>
+                <p>— Infrastructure made for professionals</p>
+                <p>— Infrastructure made for professionals</p>
+                <p>— Infrastructure made for professionals</p>
+                <p>— Infrastructure made for professionals</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- dragable slider -->
+    <section class="dragableSlider mb-5" id="originals" aria-label="Utopai Originals">
+
+        <div class="drag-track pe-5">
+
+            <!-- LEFT CONTENT PANEL -->
+            <div class="dragSlide-box-1">
+
+                <div class="dragContent">
+                    <p>Production</p>
+                    <h2>
+                        Where stories come to life
+                        in a new age of
+                        entertainment.
+                    </h2>
+                </div>
+
+                <div class="drag-box-btn">
+                    <button type="button">Explore Originals</button>
+                    <button type="button">Explore East</button>
+                </div>
+
+                <p class="p_label">&lt; Drag</p>
+
+            </div>
+
+            <!-- CARD 1 -->
+            <div class="dragSlide-card">
+
+                <div class="drag-video">
+                    <video autoplay muted loop playsinline preload="none" aria-hidden="true" disablepictureinpicture>
+                        <source
+                            data-src="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d%2F6a0ed339942830a4f40e9771_cam_girl_mp4.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="dragSlide-content">
+                    <h3>Our Mission</h3>
+                    <p>
+                        Utopai Studios gives creators the power
+                        to tell epic stories as they were meant
+                        to be told.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="dragSlide-card">
+
+                <div class="drag-video">
+                    <video autoplay muted loop playsinline preload="none" aria-hidden="true" disablepictureinpicture>
+                        <source
+                            data-src="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d%2F69cd68c7d2ff5f280705b992_68f8fda7631ab658fe2489cc_Cortes%20v2v_mp4.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="dragSlide-content">
+                    <h3>Co-produced with the industry</h3>
+                    <p>
+                        Utopai partners with filmmakers and studios to create high-quality films and TV series, ensuring
+                        our infrastructure aligns with industry standards.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="dragSlide-card">
+
+                <div class="drag-video">
+                    <img src="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d/6a0f86a446ce14dd8ba4d943_Image.avif"
+                        alt="Utopai East, the first studio to join the Utopai ecosystem" loading="lazy" decoding="async">
+                </div>
+
+                <div class="dragSlide-content">
+                    <h3>Our first studio</h3>
+                    <p>
+                        Utopai East launches with the acquisition of our first studio, bringing a slate of original
+                        projects and creative talent into the Utopai ecosystem.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="dragSlide-card">
+
+                <div class="drag-video">
+                    <video autoplay muted loop playsinline preload="none" aria-hidden="true" disablepictureinpicture>
+                        <source
+                            data-src="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d%2F69cc4269243f38abca862440_main%20page_East_mp4.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="dragSlide-content">
+                    <h3>Original stories in development</h3>
+                    <p>
+                        Developing long-form, cinematic stories rooted in Asia for global audiences.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="dragableSlider slider-two mb-5" id="pai" aria-label="PAI products">
+
+        <div class="drag-track pe-5">
+
+            <!-- Intro Card -->
+            <div class="dragSlide-box-1">
+
+                <div class="dragContent">
+                    <p>PRODUCTS</p>
+                    <h2>
+                        Master your story with PAI -
+                        a cinematic storytelling engine.
+                    </h2>
+                </div>
+
+                <div class="drag-box-btn">
+                    <button type="button">Learn more</button>
+                    <button type="button">Try PAI</button>
+                    <button type="button">Try PAI Pro</button>
+                </div>
+
+                <p class="p_label">&lt; Drag</p>
+
+            </div>
+
+            <!-- Card 1 -->
+            <div class="dragSlide-card drag-img-card">
+                <div class="drag-img">
+                    <img src="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d/6a0ed55534001b74c0dfbcdb_continuity_shots.avif"
+                        alt="PAI continuity shots keeping characters and settings consistent across scenes" loading="lazy" decoding="async">
+                </div>
+
+                <div class="dragSlide-content ps-3">
+                    <h3>Narrative Continuity</h3>
+                    <p>PAI is built for the work serious storytellers actually need to do: sustaining narrative across
+                        scenes, sequences, and story worlds with continuity, coherence, and control.</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="dragSlide-card drag-img-card">
+                <div class="drag-img">
+                    <img src="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d/6a0edb747d199a7856d1ca57_inpainting_visual_refinement.avif"
+                        alt="Inpainting and visual refinement tools for story-level creative control in PAI" loading="lazy" decoding="async">
+                </div>
+
+                <div class="dragSlide-content ps-3">
+                    <h3>Story-Level Creative Control</h3>
+                    <p>Direct editing, revision, and creative decisions at the narrative level, not just visual
+                        parameters. Shape structure, pacing, and story flow across entire sequences.</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="dragSlide-card drag-img-card">
+                <div class="drag-img">
+                    <img src="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d/6a0ed66b3ab8b3ab12be8d6a_generation_length_3min.avif"
+                        alt="PAI generation length of up to three minutes with narrative consistency" loading="lazy" decoding="async">
+                </div>
+
+                <div class="dragSlide-content ps-3">
+                    <h3>3 min generation length</h3>
+                    <p>Create engaging 60-second videos that maintain narrative consistency, ensuring characters and
+                        settings remain true to the story from start to finish.</p>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="dragSlide-card drag-img-card">
+                <div class="drag-img">
+                    <img src="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d/6a0ed9b47ab85e586c16df5d_production-grade-output.avif"
+                        alt="Production-grade cinematic output generated with PAI" loading="lazy" decoding="async">
+                </div>
+
+                <div class="dragSlide-content ps-3">
+                    <h3>Production-Grade Output</h3>
+                    <p>Designed for professional workflows. Generate cinematic-quality assets built for real production.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="dragSlide-card drag-img-card">
+                <div class="drag-img">
+                    <img src="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d/6a0ed7bcb2b9c76bf2301e3d_rights-ready.avif"
+                        alt="Rights-ready original characters and assets with clear provenance" loading="lazy" decoding="async">
+                </div>
+
+                <div class="dragSlide-content ps-3">
+                    <h3>Rights-Ready by Design</h3>
+                    <p>Original characters and assets with clear provenance and audit trails, supporting ownership,
+                        responsible use of likeness, and commercial distribution.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- third slider -->
+    <section class="dragableSlider mb-5" id="enterprise" aria-label="Utopai Enterprise">
+
+        <div class="drag-track pe-5">
+
+            <!-- LEFT CONTENT PANEL -->
+            <div class="dragSlide-box-1">
+
+                <div class="dragContent">
+                    <p>Enterprise</p>
+                    <h2>
+                        <span style="font-style: italic;">The</span> orchestration engine <span
+                            style="font-style: italic;">for</span> long-form storytelling
+                    </h2>
+                </div>
+
+                <div class="drag-box-btn">
+                    <button type="button">Learn more</button>
+                </div>
+
+                <p class="p_label">&lt; Drag</p>
+
+            </div>
+
+            <!-- CARD 1 -->
+            <div class="dragSlide-card">
+
+                <div class="drag-video">
+                    <img src="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d/6a162b9d3966baff745750b0_b8cece3316aaddadadb2de3315a088d0_mei2.avif"
+                        alt="Private customized model built for a studio or franchise IP" loading="lazy" decoding="async">
+                </div>
+
+                <div class="dragSlide-content">
+                    <h3>Private customized models</h3>
+                    <p>
+                        Dedicated private models built for IPs, franchises, or studios with isolated data, consistent
+                        visual identity, and production control.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="dragSlide-card">
+
+                <div class="drag-video">
+                    <img src="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d/6a148b26494b3c8d80a56634_78748a9d601937f634aaaceedf3c138d_Frame%20496-p-1600.png"
+                        alt="Custom production pipeline and collaboration tool for feature films and TV series" loading="lazy" decoding="async">
+                </div>
+
+                <div class="dragSlide-content">
+                    <h3>Custom pipeline & collaboration tool</h3>
+                    <p>
+                        A proprietary production pipeline for creating feature films and TV series, combining in-house
+                        AI technologies with experienced Hollywood production engineers.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- newsletter section -->
+
+    <section class="story-footer-section">
+        <div class="container">
+
+            <div class="story-footer-wrapper">
+
+                <!-- Newsletter -->
+                <div class="story-footer-left">
+                    <h2 class="story-title">Get notified</h2>
+                    <p class="story-subtitle">
+                        The future of storytelling, in your inbox.
+                    </p>
+
+                    <form class="story-subscribe-form" action="#" method="post">
+                        <label for="newsletter-email" class="visually-hidden">Email address</label>
+                        <input type="email" id="newsletter-email" name="email" placeholder="Your email here"
+                            autocomplete="email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+
+                <!-- Contact -->
+                <div class="story-footer-right" id="contact">
+                    <h2 class="story-title">Contact us</h2>
+                    <p class="story-subtitle">
+                        Have questions or feedback?
+                    </p>
+
+                    <a href="#" class="story-contact-btn">
+                        Let's talk
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="utopai-footer">
+        <div class="container">
+
+            <div class="row">
+
+                <!-- Left Side -->
+                <div class="col-lg-6 footer-left">
+
+                    <div class="footer-logo">
+                        <img src="https://cdn.prod.website-files.com/68a3683abb74228f4d39b11d/6a0ee5d318ef879a29d4afd1_utopai_logo.svg"
+                            alt="Utopai Studios logo" width="128" loading="lazy" decoding="async" style="width: 128px; height: auto;">
+                    </div>
+
+                    <div class="footer-social">
+                        <a href="#" aria-label="Utopai Studios on LinkedIn" rel="noopener noreferrer"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Utopai Studios on X (Twitter)" rel="noopener noreferrer"><i class="bi bi-twitter-x" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Utopai Studios on YouTube" rel="noopener noreferrer"><i class="bi bi-youtube" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Utopai Studios on Instagram" rel="noopener noreferrer"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Utopai Studios on TikTok" rel="noopener noreferrer"><i class="bi bi-tiktok" aria-hidden="true"></i></a>
+                    </div>
+
+                    <address class="footer-address">
+                        215 Castro Street, 3rd floor, Mountain View, CA 94041
+                    </address>
+
+                </div>
+
+                <!-- Right Side -->
+                <div class="col-lg-6">
+
+                    <nav class="footer-links-wrapper" aria-label="Footer">
+
+                        <ul class="footer-links">
+                            <li><a href="#originals">ORIGINAL</a></li>
+                            <li><a href="#pai">PAI</a></li>
+                            <li><a href="#pai">PAI PRO</a></li>
+                            <li><a href="#originals">EAST</a></li>
+                            <li><a href="#enterprise">ENTERPRISE</a></li>
+                        </ul>
+
+                        <ul class="footer-links">
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">NEWS</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">CAREER</a></li>
+                        </ul>
+
+                        <ul class="footer-links">
+                            <li><a href="#">BRAND KIT</a></li>
+                            <li><a href="#">PRIVACY POLICY</a></li>
+                            <li><a href="#">SUBMISSIONS POLICY</a></li>
+                            <li><a href="#">TERMS OF SERVICE</a></li>
+                        </ul>
+
+                    </nav>
+
+                    <div class="footer-copyright">
+                        © 2026 Utopai Studios. All rights reserved.
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- defer = non-blocking, executes in order after HTML is parsed. Bootstrap JS removed: no Bootstrap JS components are used. -->
+    <script defer src="https://cdn.jsdelivr.net/npm/lenis@1.3.21/dist/lenis.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+        integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/Draggable.min.js"></script>
+    <script defer src="gsap.js"></script>
+    <script defer src="script.js"></script>
+</body>
+
+</html>
